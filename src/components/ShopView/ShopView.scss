@@ -1,0 +1,33 @@
+.shop-view-container {
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        .title {
+            width: 100vh;
+            background-color: lightblue;
+            .title-content {
+                height: 100px;
+                font-size: 3em;
+                color:blue;
+                text-align:center;
+                line-height:100px
+            }
+        }
+        .product-area {
+            width: 900px;
+            display: flex;
+            flex-wrap: wrap;
+            .item {
+                margin-top: 20px;
+                margin-left: 10px;
+            }
+        }
+    }
+   
+}

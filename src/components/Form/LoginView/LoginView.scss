@@ -1,0 +1,24 @@
+.login-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    .form-content {
+        width: 400px;
+        height: 400px;
+      .form-check-area {
+        display: flex;
+        flex-direction: row;
+      }
+      .form-forgot {
+            margin-left: 180px;
+      }
+      .form-button-area {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+   
+    
+}

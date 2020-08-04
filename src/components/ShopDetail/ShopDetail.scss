@@ -1,0 +1,50 @@
+.shop-detail-container {
+    width: 100%;
+    height: 100%;
+
+    .detail-area {
+        width: 80%;
+        margin: 20px auto;
+        .title {
+            height: 200px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 200px;
+            font-size: 40px;
+            font-weight: bold;
+        }
+        .table {
+            margin: 20px auto;
+            .btn-delete {
+                background: #da1640;
+                color: aliceblue;
+                border-radius: 5px;
+                width: 50px;
+                height: 30px;
+            }
+        }
+    }
+    .price-area {
+        width: 80%vh;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        .text {
+            width: 200px;
+            text-align: left;
+            position: absolute;
+            right: 160px;
+        }
+        .btn-confirm {
+            width: 100px;
+            height: 30px;
+            background-color: lightseagreen;;
+            color: aliceblue;
+            position: absolute;
+            top: 30px;
+            right: 260px;
+        }
+    }
+   
+}

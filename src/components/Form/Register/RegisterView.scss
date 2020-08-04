@@ -1,0 +1,57 @@
+.register-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .form {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        .left-section {
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            .sex-area {
+                display: flex;
+                flex-direction: row;
+                .male-section {
+                    display: flex;
+                    flex-direction: row;
+                    .icon-male {
+                        background-image: url('./images/male.png');
+                        background-size: 100% 100%;
+                        width: 30px;
+                        height: 30px;
+                      }
+                }
+                .female-section {
+                    display: flex;
+                    flex-direction: row;
+                    margin-left: 10px;
+                    .icon-female {
+                        background-image: url('./images/female.png');
+                        background-size: 100% 100%;
+                        width: 30px;
+                        height: 30px;
+                      }
+                }
+                
+            }
+        }
+        .right-section {
+            width: 320px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+        }
+    }
+    .btn-confirm {
+        background-color: lightcyan;
+        width: 200px;
+        height: 50px;
+        position: absolute;
+        top: 400px;
+        right: 250px;
+    }
+}
+

@@ -1,0 +1,33 @@
+.member-section{
+display: flex;
+align-items: center;
+width: 200px;
+height: 50px;
+  .text-area {
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 10px;
+  }
+
+  .icon-area {
+    width: 60px;
+    //margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    .icon {
+      background-image: url('./images/market.png');
+      background-size: 100% 100%;
+      width: 30px;
+      height: 30px;
+    }
+    .text {
+      color:white;
+      margin-left: 5px;
+    }
+  }
+}
+
+
